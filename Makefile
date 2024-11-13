@@ -23,6 +23,7 @@ $(OBJ_DIR):
 
 clean:
 	@rm -rf $(OBJS)
+	@rm -rf $(OBJ_DIR)
 	@echo "cleaning objects"
 
 fclean: clean

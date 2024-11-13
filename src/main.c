@@ -24,10 +24,10 @@ int main(int argc, char **argv)
 			return (1);
 		}
 		int option = atoi(argv[1]);
-		switch (option)
+		switch (option) // this is where we sort the privileges
 		{
 			case 1:
-				write(1, "ok\n", 3);
+				write(1, "ok\n", 3); 
 				break ;
 			case 2:
 				write(1, "option 2\n", 10);
